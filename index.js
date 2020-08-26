@@ -34,3 +34,11 @@ Nam viverra turpis vel consequat convallis. Sed vel dui risus. Proin sodales eui
 
 // const reg = new RegExp(/^((?!lorem ipsum).)(.*)\n*?/, 'gim');
 // console.log(loremIpsum.match(/^((?!lorem ipsum).)(.*)\n*?/gim));
+
+
+// ... Suspense
+
+
+
+
+// uuid regex: ^[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]{12}$
