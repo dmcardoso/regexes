@@ -38,17 +38,6 @@
 - ? -> "Lazy", capturar a quantidade mínima de caracteres possível
 - \| -> Alternação (ou)
 
-## Lookarround
-
-- (?=ABC) -> Lookahead positivo, Captura sem incluir no resultado
-    - `asd(?=\w.)`
-- (?!ABC) -> Lookahead negativo, Captura o oposto e isola do resultado
-    - `asd(?!\w.)`
-- (?<=ABC) -> Lookbehind positivo, Captura antes da expressão
-    - `asd(?<=\w.)`
-- (?<=ABC) -> Lookbehind negativo, Captura antes da expressão ( ? ? )
-    - `asd(?<!(\w|\d).)`
-
 ## Classes de caracteres
 
 - [ABC] -> Combina qual qualquer coisa dentro da definição/intervalo 
@@ -86,3 +75,14 @@ Bônus* grupo sem caputra: `/([A-Z])\s?(?:\w.*)([A-Z].*)\w+/g`
 - $$ -> Escapar o $
 
 * Aplicar o escapamento de caracteres
+
+## Lookarround
+
+- (?=ABC) -> Lookahead positivo, Captura sem incluir no resultado
+    - `asd(?=\w.)`
+- (?!ABC) -> Lookahead negativo, Captura o oposto e isola do resultado
+    - `asd(?!\w.)`
+- (?<=ABC) -> Lookbehind positivo, Captura antes da expressão
+    - `asd(?<=\w.)`
+- (?<=ABC) -> Lookbehind negativo, Captura antes da expressão ( ? ? )
+    - `asd(?<!(\w|\d).)`
